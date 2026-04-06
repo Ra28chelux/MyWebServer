@@ -125,11 +125,11 @@ def handle_client(client_socket, client_addr):
             web_root_real = os.path.realpath(WEB_ROOT)
 
             # Debug output
-            print(f"DEBUG: path={path}")
-            print(f"DEBUG: file_path={file_path}")
-            print(f"DEBUG: real_path={real_path}")
-            print(f"DEBUG: web_root_real={web_root_real}")
-            print(f"DEBUG: starts_with? {real_path.startswith(web_root_real)}")
+            # print(f"DEBUG: path={path}")
+            # print(f"DEBUG: file_path={file_path}")
+            # print(f"DEBUG: real_path={real_path}")
+            # print(f"DEBUG: web_root_real={web_root_real}")
+            # print(f"DEBUG: starts_with? {real_path.startswith(web_root_real)}")
 
             if not real_path.startswith(web_root_real):
                 send_error(client_socket, 403, connection)
