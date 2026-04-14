@@ -77,4 +77,4 @@ Example:
 ## Author
 - Name: Li Yizhen
 - Student ID: 24103965D
-- Course: COMP2322 Coomputer Networking
+- Course: COMP2322 Computer Networking
